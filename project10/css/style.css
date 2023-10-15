@@ -35,6 +35,7 @@ img{
 .header{
     font-family: 'PT Sans', sans-serif;
     margin-bottom: 40px;
+    list-style: none;
 }
 
 .nav__menu{
@@ -239,3 +240,241 @@ img{
     padding-bottom: 30px; 
 }
 
+.descr{
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 110px;
+    margin-bottom: 150px;
+}
+
+.descr__item{
+    display: flex;
+    gap: 134px;
+}
+
+.descr__title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    padding-bottom: 60px;
+}
+
+.descr__text p, ul, li {
+    max-width: 636px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 16px;
+    /* list-style: circle; */
+}
+.descr__text li{
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.descr__text span{
+    position: relative;
+    top: -5;
+}
+
+.descr__video{
+    padding-top: 116px;
+    min-height: 350px;
+    color: #fff;
+}
+
+.video__descr{
+    max-width: 526px;
+    border-radius: 20px;
+    background-color: #5DB7DE;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.video__grow{
+    padding: 30px 30px 35px;
+}
+
+
+.video__grow h3{
+    padding-bottom: 38px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.video__grow p{
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.video__logo{
+    position: relative;
+    left: 218px;
+    top: 141px;
+    z-index: 5;
+}
+
+.video__back{
+    position: absolute;
+}
+
+.card__news{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.card__title-news h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%
+}
+
+.card__title-news a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #3D348B;
+    padding-top: 25px;
+}
+
+.card__title-news{
+    display: flex;
+    gap: 992px;
+    margin-bottom: 60px;
+}
+
+.card__news-check{
+    display: flex;
+    gap: 24px;
+}
+
+.card__new{
+    max-width: 306px;
+}
+
+.card__new img{
+    margin-bottom: 25px;
+}
+
+.card__news{
+    margin-bottom: 150px;
+}
+
+.card__span {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+.card__title {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.card__text {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footer{
+    background-color: #3D348B;
+    opacity: 0.85;
+   color: #fff;
+   font-family: 'PT Sans', sans-serif;
+}
+
+.footer__info {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.footer__logo{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.footer__adress {
+  display: flex;
+  gap: 25px;
+}
+
+.tel__footer {
+   display: flex;
+   gap: 25px;
+}
+.footer__mail {
+   display: flex;
+   margin-left: 30px;
+   gap: 25px;
+}
+
+
+
+ .footer__adress img{
+        height: 20px;
+  }
+  
+  .tel__footer img{
+        height: 20px;
+  }
+  .footer__mail img{
+        height: 20px;
+  }
+
+  .footer__under{
+    background-color: #3D348B;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .footer__under-list{
+     padding-top: 80px;
+     padding-bottom: 196px;
+  }
+
+  .footer__under-list h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+
+  .footer__under-list li{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 20px;
+
+  }
+
+  .footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+ .title__under-footer{
+    text-align: center;
+    padding-bottom: 30px;
+ }
