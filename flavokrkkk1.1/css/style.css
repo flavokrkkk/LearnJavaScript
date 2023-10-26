@@ -253,6 +253,10 @@ button:hover{
     display: none;
 }
 
+.contacts-input{
+    outline: none;
+}
+
 @media(max-width: 1200px){
      .headline-img{
         max-width: 100%;
@@ -440,9 +444,8 @@ button:hover{
     }
     .phone{
         flex-basis: auto;
-        margin-top: 50px;
-        order: 3;
-        width: 100%;
+        font-size: 20px;
+        width: 50%;
     }
 
 }
@@ -452,3 +455,6 @@ button:hover{
         padding: 50px 10px;
     }
 }
+
+
+
