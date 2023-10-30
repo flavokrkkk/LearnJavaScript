@@ -1,0 +1,19 @@
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.title-one{
+    margin-top: 50px;
+    /* color: #fff; */
+}
+
+.btn-click{
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
